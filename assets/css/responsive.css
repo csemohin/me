@@ -1,0 +1,170 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 3000px) {
+
+    .slicknav_menu {
+        display: none;
+    }
+    .logo-area a {
+        margin: 25px 0;
+    }
+
+    .menu-top.headroom--pinned {
+        position: fixed;
+        background: #BD40BF;
+        height: ;
+        padding: 20px;
+        margin-top: 0;
+    }
+    .menu-top.headroom--not-bottom.headroom--top {
+        background: transparent;
+    }
+
+
+
+   
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .mainmeu {
+        display: none;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 30px;
+    }
+    .logo-area {
+        left: 30px;
+    }
+    .section-title {
+        padding: 30px 0;
+    }
+    .about-content {
+        margin-top: 30px;
+    }
+    .service-area {
+        padding-bottom: 30px;
+    }
+    .single-protfolio-list {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contactme input[type="text"]:nth-child(1),
+    .contactme input[type="email"] {
+        width: 100%;
+    }
+    .logo-area span {
+        color: #fff;
+    }
+
+    .logo-area {
+        position: fixed;
+        top: 0;
+    }
+    .hero-inner h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+    .slicknav_menu {
+        display: block;
+    }
+    .mainmeu {
+        display: none;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 30px;
+    }
+    .logo-area {
+        left: 30px;
+    }
+    .section-title {
+        padding: 30px 0;
+    }
+    .about-content {
+        margin-top: 30px;
+    }
+    .service-area {
+        padding-bottom: 30px;
+    }
+    .single-protfolio-list {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contactme input[type="text"]:nth-child(1),
+    .contactme input[type="email"] {
+        width: 100%;
+    }
+    .logo-area span {
+        color: #fff;
+    }
+
+    .logo-area {
+        position: fixed;
+        top: 0;
+    }
+    .hero-inner h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .slicknav_menu {
+        display: block;
+
+    }
+    .mainmeu {
+        display: none;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 30px;
+    }
+    .logo-area {
+        left: 30px;
+    }
+    .section-title {
+        padding: 30px 0;
+    }
+    .about-content {
+        margin-top: 30px;
+    }
+    .service-area {
+        padding-bottom: 30px;
+    }
+    .single-protfolio-list {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contactme input[type="text"]:nth-child(1),
+    .contactme input[type="email"] {
+        width: 100%;
+    }
+    .logo-area span {
+        color: #fff;
+    }
+
+    .logo-area {
+        position: fixed;
+        top: 0;
+    }
+}
